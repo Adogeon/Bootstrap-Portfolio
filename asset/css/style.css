@@ -1,5 +1,49 @@
-div.navBar {
+body {
     width:100%;
-    align-content:middle;
-    
+}
+
+header {
+    background:#ffffff;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color:#cccccc;  
+    border-bottom: 2px solid #cccccc;
+    position:fixed;
+    top:0px;
+    width:100%;
+}
+
+.navContainer {
+    display:table;
+    margin:0px auto;
+}
+
+
+ul {
+    list-style: none;
+    width:960px;
+    height: 4.5em;
+    display:block;
+    overflow: hidden;
+    margin:auto;
+    padding:0px;
+}
+
+li {
+    display:table-cell;
+    padding:10px;
+    float:right;
+    height:100%;
+    margin:auto;
+}
+
+a {
+    display:block;
+    padding-top:2em;
+}
+
+li.mainName {
+    float:left;
+    font-size:2.5em;
+    background:#4aaaa5;
+    color: white;
 }
