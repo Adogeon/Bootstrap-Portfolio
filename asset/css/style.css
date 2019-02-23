@@ -1,3 +1,7 @@
+html{
+    
+}
+
 body {
     width:100%;
     background-image:url("../images/circuit.png");
@@ -86,9 +90,6 @@ a.active:hover{
 
 /*main block style*/
 main {
-    display:block;
-    overflow:hidden;
-    clear:both;
     background-color:#ffffff;
     width:960px;
     margin:auto;
@@ -99,6 +100,11 @@ div.mainSec {
     width:95%;
     margin:auto;
     padding-bottom:30px;
+}
+
+div.bodySec {
+    display:flex;
+    justify-content:flex-start;
 }
 
 h2 {
@@ -131,11 +137,49 @@ footer {
 
 .proPic {
     height:300px;
-    float: left;
     margin: 0px 17px 17px 0px;
 }
 
 /*index end*/
+
+/*portfolio start*/
+
+
+#portSec {
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.portRow {
+    display:flex;
+    justify-content:space-between;
+    margin:10px;
+}
+
+.imgContainer {
+    width:300px;
+    height:300px;
+}
+
+.portImg {
+    width:300px;
+    height:300px;
+}
+
+.imgTitle {
+    background-color:#4aaaa5;
+    width:300px;
+    text-align:center;
+    position:relative;
+    left:0px;
+    bottom:30px;
+    font-size:1.2em;
+    color:#ffffff;
+}
+
+/*portfolio end*/
 
 /*contact* start*/
 form {
