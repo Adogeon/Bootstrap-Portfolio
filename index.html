@@ -3,24 +3,23 @@
     <head>
         <meta charset="utf-8"/>
         <title>About </title>
-        <link rel="stylesheet" type="text/css" href="asset\css\style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
     </head>
 
-    <body>
-        <nav>
-            <div class = "navBar">
-                <span class="bigFont navBrand"> Anh Dao</span>
-                <ul class = "navMenu">
-                    <li><a href=index.html class ="nav-button active">About</a></li>
-                    <li><a href=portfolio.html class ="nav-button">Portfolio</a></li>
-                    <li><a href=contact.html class ="nav-button">Contact</a></li>
+    <body background = asset\images\circuit.png>
+        <nav class= "navbar navbar-dark navbar-expand-md bg-primary justify-content-between border-bottom border-dark">
+            <span class="h1 text-light"> Anh Dao</span>
+                <ul class = "navbar-nav d-flex jusity-content-end">
+                    <li class="nav-item mx-2"><a href=index.html class ="nav-link active">About</a></li>
+                    <li class="nav-item mx-2"><a href=portfolio.html class ="nav-link">Portfolio</a></li>
+                    <li class="nav-item mx-2"><a href=contact.html class ="nav-link">Contact</a></li>
                 </ul>
-            </div>
         </nav>
 
-        <main>
+        <main class="col-md-8 mx-auto mt-3 bg-white p-3">
             <div class="mainSec">
-                <h2> About Me</h2>
+                <h1> About Me</h1>
                 <br>
                 <div class="bodySec">
                     <img src="asset/images/proPic.jpg" alt="I am drinking coffee" class = "proPic">
@@ -34,8 +33,8 @@
                
             </div>
         </main>
-        <footer>
-            <span class="std-footer">Copyright@</span>
+        <footer class="fixed-bottom border-top border-primary d-flex justify-content-center bg-dark">
+            <span class="text-light">Copyright@</span>
         </footer>
     </body>
 </html>
