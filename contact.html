@@ -18,16 +18,23 @@
         </nav>
 
         <main class="col-md-8 mx-auto mt-3 bg-white p-3">
-            <div>
-                <h1>Contact</h1>
-                <form>
-                    Name<br>
-                    <input type="text" name="name" value="John Smith"><br>
-                    Email<br>
-                    <input type="text" name="email" value="example@email.com"><br>
-                    Message<br>
-                    <input type="text" name="message"><br>
-                    <input type="button" value="Submit"><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="text-primary">Contact</h1>
+                    </div>
+                </div>
+                <form class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" value="John Smith" class="form-control">
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" value="example@email.com" class="form-control">
+                    <br>
+                    <label for="message">Message:</label>
+                    <textarea type="text" id="message" class="form-control" rows="5"></textarea>
+                    <br>
+                    <input type="button" class= "btn btn-primary"value="Submit">
                 </form>
             </div>
         </main>
